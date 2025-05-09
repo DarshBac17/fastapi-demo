@@ -11,7 +11,7 @@ class User(Base):
     email = Column(String, unique=True, index=True)
     password = Column(String)
     age = Column(Integer,nullable=True)
-    # hobby = Column(String,nullable=True)
+    hobby = Column(String,nullable=True)
     # phone = Column(String,nullable=True)
 
     # # Optional: Relationship back to posts
