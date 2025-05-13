@@ -12,7 +12,7 @@ class User(Base):
     password = Column(String)
     age = Column(Integer,nullable=True)
     hobby = Column(String,nullable=True)
-    # phone = Column(String,nullable=True)
+    phone = Column(String,nullable=True)
 
     # # Optional: Relationship back to posts
     # addresses = relationship("Address", back_populates="user")
