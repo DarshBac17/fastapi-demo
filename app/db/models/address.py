@@ -10,7 +10,7 @@ class Address(Base):
     address = Column(Text, index=True)
     city = Column(String,nullable=True)
     pincode = Column(Integer, nullable=True)
-    # country = Column(String,nullable=True)
+    country = Column(String,nullable=True)
 
 
     # user_id = Column(Integer, ForeignKey("users.id"))
