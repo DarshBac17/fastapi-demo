@@ -14,5 +14,7 @@ class User(Base):
     hobby = Column(String,nullable=True)
     phone = Column(String,nullable=True)
 
+    city = Column(String,nullable=True)
+
     # # Optional: Relationship back to posts
     # addresses = relationship("Address", back_populates="user")
